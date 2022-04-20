@@ -1,0 +1,15 @@
+<div class="card tool-bar">
+    <nav class="navbar navbar-dark bg-dark py-3 px-5">
+        <div class="container-fluid">
+            
+            <div class="text-warning">
+                <h3>{{pageTitle}}</h3>
+            </div>
+            <div>
+                <app-button-component
+                class="mx-1" 
+                *ngFor="let route of routes" [text]="route" (btnClick)="changeRoute(route)"></app-button-component>
+            </div>
+        </div>
+    </nav>
+</div>
