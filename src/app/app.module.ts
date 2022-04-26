@@ -7,6 +7,7 @@ import { ToolBarComponent } from './components/tool-bar/tool-bar.component';
 import { MoviesHomeComponent } from './components/movies-home/movies-home.component';
 import { AddMoviesComponent } from './components/add-movies/add-movies.component';
 import { ButtonComponentComponent } from './components/button-component/button-component.component';
+import { MovieTileComponent } from './components/movie-tile/movie-tile.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ButtonComponentComponent } from './components/button-component/button-c
     ToolBarComponent,
     MoviesHomeComponent,
     AddMoviesComponent,
-    ButtonComponentComponent
+    ButtonComponentComponent,
+    MovieTileComponent
   ],
   imports: [
     BrowserModule,

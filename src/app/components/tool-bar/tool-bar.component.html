@@ -6,6 +6,7 @@
                 <h3>{{pageTitle}}</h3>
             </div>
             <div>
+               
                 <app-button-component
                 class="mx-1" 
                 *ngFor="let route of routes" [text]="route" (btnClick)="changeRoute(route)"></app-button-component>
