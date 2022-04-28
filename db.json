@@ -1,0 +1,88 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Avengers Endgame",
+            "image": "find something",
+            "isWatched": true,
+            "isFav": true
+        },
+        {
+            "id": 2,
+            "title": "Star Wars: The Last Jedi",
+            "image": "find something",
+            "isWatched": true,
+            "isFav": true
+        },
+        {
+            "id": 3,
+            "title": "Capone",
+            "image": "find something",
+            "isWatched": false,
+            "isFav": false
+        },
+        {
+            "id": 4,
+            "title": "Finch",
+            "image": "find something",
+            "isWatched": true,
+            "isFav": false
+        },
+        {
+            "id": 5,
+            "title": "42",
+            "image": "find something",
+            "isWatched": false,
+            "isFav": false
+        },
+        {
+            "id": 6,
+            "title": "Spider-Man Homecoming",
+            "image": "find something",
+            "isWatched": true,
+            "isFav": true
+        },
+        {
+            "id": 7,
+            "title": "Sully",
+            "image": "find something",
+            "isWatched": true,
+            "isFav": true
+        },
+        {
+            "id": 8,
+            "title": "The Last Duel",
+            "image": "find something",
+            "isWatched": false,
+            "isFav": false
+        },
+        {
+            "id": 9,
+            "title": "The Report",
+            "image": "find something",
+            "isWatched": true,
+            "isFav": false
+        },
+        {
+            "id": 10,
+            "title": "Artemis Fowl",
+            "image": "find something",
+            "isWatched": false,
+            "isFav": false
+        },
+        {
+            "id": 11,
+            "title": "Pig",
+            "image": "find something",
+            "isWatched": false,
+            "isFav": false
+        },
+        {
+            "id": 12,
+            "title": "Ready Player One",
+            "image": "find something",
+            "isWatched": true,
+            "isFav": false
+        }
+    ]
+}

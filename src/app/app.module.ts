@@ -8,6 +8,7 @@ import { MoviesHomeComponent } from './components/movies-home/movies-home.compon
 import { AddMoviesComponent } from './components/add-movies/add-movies.component';
 import { ButtonComponentComponent } from './components/button-component/button-component.component';
 import { MovieTileComponent } from './components/movie-tile/movie-tile.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,13 @@ import { MovieTileComponent } from './components/movie-tile/movie-tile.component
     MoviesHomeComponent,
     AddMoviesComponent,
     ButtonComponentComponent,
-    MovieTileComponent
+    MovieTileComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
