@@ -11,4 +11,11 @@
 
         </app-movie-tile>
     </div>
+    <h3 *ngIf="watchedMovies.length">Watched</h3>
+    <div class="to-watch">
+        <app-movie-tile *ngFor="let movie of watchedMovies" [imageUrl]="movie.image"
+        [id]="movie.id" [isWatched]="movie.isWatched" [isFav]="movie.isFav">
+
+        </app-movie-tile>
+    </div>
 </div>
