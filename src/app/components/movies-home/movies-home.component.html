@@ -1,1 +1,14 @@
-<p>movies-home works!</p>
+<div>
+    <h3 *ngIf="movies.length < 1">
+        Loading...
+    </h3>
+    <h3 *ngIf="notWatchedYet.length">
+        Movies to watch
+    </h3>
+    <div class="to-watch">
+        <app-movie-tile *ngFor="let movie of notWatchedYet" [imageUrl]="movie.image"
+        [id]="movie.id" [isWatched]="movie.isWatched" [isFav]="movie.isFav">
+
+        </app-movie-tile>
+    </div>
+</div>

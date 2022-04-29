@@ -12,6 +12,7 @@ export class MoviesHomeComponent implements OnInit {
   movies: Movies[] = [];
   notWatchedYet: Movies[] = [];
   watchedMovies: Movies[] = [];
+  
 
   constructor(private moviesService: MoviesService) { }
 
@@ -20,9 +21,13 @@ export class MoviesHomeComponent implements OnInit {
     console.log('movies', this.movies);
   }
 
-  // Watch for changes
+  // Filter to see which list a movie belongs into
+  // watched or not watched 
   ngDoCheck(): void {
-    console.log('movies', this.movies);
+    if (this.movies.length && !this.watchedMovies.length){
+      this.notWatchedYet = this.movies.filter((m) => !m.isFav && !m.isWatched);
+      this.watchedMovies = this.movies.filter((m) => m.isWatched);
+    }
   }
 
 }

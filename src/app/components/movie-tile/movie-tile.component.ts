@@ -22,7 +22,7 @@ export class MovieTileComponent implements OnInit {
 
   ngOnInit(): void {
     // setting default values
-    this.faFav = this.isFav ? bi-heart : faNotFav;
+    //this.faFav = this.isFav ? bi-heart : faNotFav;
     //this.faWatched = this.isWatched ? faEye : faNotWatched;
   }
 
